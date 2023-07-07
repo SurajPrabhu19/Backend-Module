@@ -7,6 +7,7 @@
 - We have **Tasks** and **Notes**
 
 - Tasks
+
   - We can see all existing tasks
   - We can create new Tasks as per our requirements
     - Every task will have following params
@@ -16,3 +17,11 @@
     - A task can be marked as completed (or undo completed too)
     - Due date and status of the tasks can be changed
     - Tasks can be deleted
+
+- Notes
+
+  - Multiple notes exist inside each task
+  - Each note will have following params
+    - Title of the Note
+    - Body or the Content of the Note
+  - Once a note is added it should have a unique Id as well
