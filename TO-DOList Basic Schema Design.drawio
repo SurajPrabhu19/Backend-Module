@@ -1,0 +1,28 @@
+<mxfile host="app.diagrams.net" modified="2023-07-07T08:46:56.534Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="nwkD6QU3VWTbOjANJIkX" version="21.6.1" type="device">
+  <diagram name="Page-1" id="_vUZPAlZEiB5AV3Dw5Fj">
+    <mxGraphModel dx="1050" dy="581" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="699oIrvPUedQxloaIlU1-1" value="Tasks" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="240" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="699oIrvPUedQxloaIlU1-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;- title&lt;br&gt;- description&lt;br&gt;- taskStatus&lt;br&gt;- dueDate&lt;br&gt;- priority&lt;br&gt;&lt;/font&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="699oIrvPUedQxloaIlU1-1">
+          <mxGeometry y="50" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="699oIrvPUedQxloaIlU1-3" value="Notes" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="240" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="699oIrvPUedQxloaIlU1-4" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;- title&lt;br&gt;- note&lt;br&gt;&lt;/span&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="699oIrvPUedQxloaIlU1-3">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="699oIrvPUedQxloaIlU1-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1.01;exitY=0.186;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="699oIrvPUedQxloaIlU1-1" target="699oIrvPUedQxloaIlU1-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="330" as="sourcePoint" />
+            <mxPoint x="450" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
