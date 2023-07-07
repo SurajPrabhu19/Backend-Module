@@ -14,6 +14,7 @@
       - Title for the task
       - Due date to complete the task
       - A variable to check if the task status (Completed/ In progress/ New/ On Hold)
+      - A task will have priority level (Urgent, Important, etc)
     - A task can be marked as completed (or undo completed too)
     - Due date and status of the tasks can be changed
     - Tasks can be deleted
