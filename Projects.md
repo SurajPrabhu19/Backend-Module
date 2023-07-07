@@ -19,12 +19,13 @@
     - Tasks can be deleted
 
 - Notes
-
   - Multiple notes exist inside each task
   - Each note will have following params
     - Title of the Note
     - Body or the Content of the Note
   - Once a note is added it should have a unique Id as well
+
+> NOTE: Take other necessary assumptions
 
 ## Blogging App
 
@@ -59,3 +60,5 @@
   - Comments are written within an article
   - Comments can also have an author
   - Comments can be deleted by the author of the article
+
+> NOTE: Take other necessary assumptions
