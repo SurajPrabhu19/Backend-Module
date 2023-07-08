@@ -67,7 +67,7 @@ create a new user
 
 ## Articles
 
-### `GET/articles`` 📄
+### `GET/articles` 📄
 
 get all articles (default page size 10)
 available filters

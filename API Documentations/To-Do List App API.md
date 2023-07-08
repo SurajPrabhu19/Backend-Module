@@ -40,7 +40,7 @@ delete a task
 
 get notes by task-id
 
-### GET/tasks/{task-id}/notes/{notes-id}
+### `GET/tasks/{task-id}/notes/{notes-id}``
 
 get notes by task-id and note-id
 
@@ -48,6 +48,6 @@ get notes by task-id and note-id
 
 create a new note inside a task
 
-### DELETE /tasks/{task_id}/notes/{notes_id}
+### `DELETE /tasks/{task_id}/notes/{notes_id}``
 
 Delete a note
