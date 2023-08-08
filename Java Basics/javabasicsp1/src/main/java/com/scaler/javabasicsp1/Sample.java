@@ -24,9 +24,9 @@ public class Sample {
         listObj.add(new Object());
 
         List<String> listString;
-        listString = listObj; // will thorw an error
+        // listString = listObj; // will throw an error
 
-        List<Object> obj = listString; // will throw an error
+        // List<Object> obj = listString; // will throw an error
 
     }
 
