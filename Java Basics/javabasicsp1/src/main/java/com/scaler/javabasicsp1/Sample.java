@@ -12,8 +12,13 @@ public class Sample {
 
         // the solution is creating a static class to do so
 
+        // STATIC NESTED CLASS
         SampleNestedClass obj1 = (new SampleNestedClass("attr1", "attr2"));
-        // Sample.SampleNestedClass obj2 = new SampleNestedClass("attr1", "attr2");
+        // Sample.SampleNestedClass obj2 = new SampleNestedClass("attr1", "attr2"); //
+        // will work the same as above
+
+        // NON-STATIC NESTED CLASS:
+        Sample.SampleNonStaticNestedClass obj3 = new Sample().new SampleNonStaticNestedClass(null, null);
 
         List<Object> listObj = new ArrayList<>();
         listObj.add(new Object());
@@ -30,6 +35,17 @@ public class Sample {
         String attribute2;
 
         public SampleNestedClass(String attr1, String attr2) {
+            super();
+            this.attribute1 = attr1;
+            this.attribute2 = attr2;
+        }
+    }
+
+    class SampleNonStaticNestedClass {
+        String attribute1;
+        String attribute2;
+
+        public SampleNonStaticNestedClass(String attr1, String attr2) {
             super();
             this.attribute1 = attr1;
             this.attribute2 = attr2;
