@@ -1,4 +1,4 @@
-# Blogging App API Documentation
+# Task Manager / To-Do List API Documentation
 
 ## JSON Entities
 
