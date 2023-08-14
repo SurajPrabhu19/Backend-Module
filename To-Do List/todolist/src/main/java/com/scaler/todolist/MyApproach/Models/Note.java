@@ -1,4 +1,4 @@
-package com.scaler.todolist.Models;
+package com.scaler.todolist.MyApproach.Models;
 
 public class Note {
     private String note;

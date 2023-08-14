@@ -1,4 +1,4 @@
-package com.scaler.todolist.Controllers;
+package com.scaler.todolist.MyApproach.Controllers;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.scaler.todolist.Models.Note;
-import com.scaler.todolist.Models.Task;
+import com.scaler.todolist.MyApproach.Models.Note;
+import com.scaler.todolist.MyApproach.Models.Task;
 
 @RestController
 @RequestMapping("/tasks")
