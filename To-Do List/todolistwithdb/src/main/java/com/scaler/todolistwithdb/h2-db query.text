@@ -1,0 +1,23 @@
+If you really need to drop the whole database in H2 Console, use
+
+DROP ALL OBJECTS DELETE FILES;
+SHUTDOWN;
+You'll see “Database is already closed” error or something like it after execution of SHUTDOWN command, it should be ignored.
+
+If you want to drop only your schema (in some other DBMS the “database” term is used for a schema, but in H2 they are different things), use
+
+DROP SCHEMA schemaName;
+where schemaName is a name of your schema.
+
+Note: the PUBLIC schema cannot be dropped and there are no commands to clear all its content at once. But there is a command to drop all other objects in the database, it is the same
+
+DROP ALL OBJECTS
+command, but without DELETE FILES clause. It preserves only the current user, the PUBLIC role, and the empty PUBLIC schema (content of this schema is dropped).
+
+All these commands are destructive and cannot be rolled back.
+
+
+
+------------------------------------------------
+
+You can also delete todos.mv.db and todos.trace.db and rebuild the soln to create the DB's from scratch
